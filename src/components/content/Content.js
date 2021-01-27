@@ -7,7 +7,7 @@ import {
   TextWrapper,
 } from "./ContentStyle";
 
-function Content({changeColor}) {
+function Content() {
   return (
     <Container>
       <ContentDesc>
