@@ -16,7 +16,6 @@ function Content({changeColor}) {
       <ContentWrapper>
         <ImgWrapper>image</ImgWrapper>
         <TextWrapper>text</TextWrapper>
-        <TextWrapper>text</TextWrapper>
       </ContentWrapper>
     </Container>
   );

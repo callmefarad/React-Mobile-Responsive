@@ -6,15 +6,9 @@ function Header() {
       <HeaderWrapper>
         <h1>Logo</h1>
         <LinkWrapper>
-          <NavLink>
-            Home
-          </NavLink>
-          <NavLink>
-            About
-          </NavLink>
-          <NavLink>
-            Contact
-          </NavLink>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">About</NavLink>
+          <NavLink to="/">Contact</NavLink>
         </LinkWrapper>
       </HeaderWrapper>
     ); 

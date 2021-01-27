@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 `;
 
 export const ContentDesc = styled.div`
@@ -14,15 +14,18 @@ export const ContentDesc = styled.div`
     color: brown;
     font-size: 20px;
     font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 `;
 
 export const ContentWrapper = styled.div`
   margin: 5px auto;
   width: 90%;
+  height: 300px;
   display: flex;
   justify-content: center;
-  background-color: red;
+  align-items: center;
+  background-color: #1896ba;
 
   @media screen and (max-width: 960px) {
     display: flex;
@@ -34,14 +37,16 @@ export const ContentWrapper = styled.div`
 
 export const ImgWrapper = styled.ul`
   width: 40%;
-  height: 150px;
+  height: 250px;
   background-color: grey;
   margin: 10px;
+  border-radius: 5px;
 `;
 
 export const TextWrapper = styled.ul`
   width: 40%;
-  height: 150px;
+  height: 250px;
   background-color: grey;
   margin: 10px;
+  border-radius: 5px;
 `;
