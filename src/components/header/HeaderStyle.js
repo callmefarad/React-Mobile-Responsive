@@ -3,18 +3,28 @@ import { Link } from "react-router-dom";
 
 
 export const HeaderWrapper = styled.div`
+  height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* border: 1px solid #ff8000; */
   border: none;
-  background-color: #ff8000;
+  background-color: #1896ba;
   padding: 10px, 0;
 
   h1 {
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     margin-left: 15px;
+    margin-top: 15px;
+  }
+
+  @media screen and (max-width: 960px) {
+    height: 50px;
+    background-color: #ff8000;
+
+    h1 {
+      margin-top: 5px;
+    }
   }
 `;
 

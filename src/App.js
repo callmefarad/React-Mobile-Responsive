@@ -1,18 +1,18 @@
-import React from 'react';
-import { AppWrapper } from './AppStyle';
+import React from "react";
+import GlobalStyle from "./GlobalStyle";
+import { AppWrapper } from "./AppStyle";
 import Header from "./components/header/Header";
 import Content from "./components/content/Content";
-import {
-    BrowserRouter as Router, Switch, Route
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-    <AppWrapper>
-      <Header />
-      <Content />
-    </AppWrapper>
+      <GlobalStyle />
+      <AppWrapper>
+        <Header />
+        <Content />
+      </AppWrapper>
     </Router>
   );
 }
